@@ -1,0 +1,23 @@
+{
+    "config": {
+        "base": {
+            "_scop": [ "global", "region", "zone", "gaia", "all_region", "all_zone", "all_gaia" ]
+        },
+        "service": {
+            "passwd_secret": {
+                "_service_id": "passwd-secret"
+            },
+            "ocloud_api3": {
+                "_service_id": "dbsql-tcenter-ocloud_api3"
+            },
+            "dbsql_yje_yujie_data": {
+                "_scop": "all_zone",
+                "_service_id": "dbsql-yje-yujie_data"
+            },
+            "dbsql_tcenter_CCDB4": {
+                "_scop": "all_region",
+                "_service_id": "dbsql-tcenter-CCDB4"
+            }
+        }
+    }
+}

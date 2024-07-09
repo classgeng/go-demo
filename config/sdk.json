@@ -1,0 +1,116 @@
+{
+  "base": {
+    "local": {
+      "region_id": 50000005,
+      "main_zone_name": "yf-1",
+      "region_name_long": "chongqing",
+      "zone_name": "yf-1",
+      "domain_cos": "yf-1.csp.tcepoc.fsphere.cn",
+      "domain_main_protocol": "http:",
+      "region_area": "chongqing",
+      "title": "YF-1交付验证",
+      "region_city": "chongqing",
+      "default_host_port": "36000",
+      "domain_root": "fsphere.cn",
+      "domain_bss": "yf-1.tcepoc.fsphere.cn",
+      "domain_main": "yf-1.tcepoc.fsphere.cn",
+      "zone_name_zh": "重庆一区",
+      "region_name_zh": "重庆",
+      "domain_main_login": "yf-1.tcepoc.fsphere.cn",
+      "plugin_key": "",
+      "default_host_user": "root",
+      "region_name_upper": "CHONGQING",
+      "zone_id": 50050002,
+      "region_name": "chongqing",
+      "domain_oss": "yf-1.tcepoc.fsphere.cn",
+      "main_region_name": "chongqing",
+      "domain_ims": ""
+    },
+    "region_list": [
+      {
+        "region_name_upper": "CHONGQING",
+        "region_area": "chongqing",
+        "region_id": 50000005,
+        "region_city": "chongqing",
+        "main_zone_name": "yf-1",
+        "xgw_bgp_as": "0",
+        "region_name_long": "chongqing",
+        "region_name_zh": "重庆",
+        "region_name": "chongqing"
+      }
+    ],
+    "zone_list": [
+      {
+        "zone_name_zh": "重庆一区",
+        "region_id": 50000005,
+        "zone_name": "yf-1",
+        "zone_id": 50050002
+      }
+    ]
+  },
+  "sdk": {
+    "passwd-secret": {
+      "aeskey": "f13c3f40c60db7f32ce6a5e0143f09ea"
+    }
+  },
+  "mysql": {
+    "ocloud_api3": {
+      "db_name_list": [
+        "hp_api_formal",
+        "hp_api_dev",
+        "api_sync"
+      ],
+      "host": "db-2.db.gaia-1.yf-1.chongqing.yf-1.tcepoc.fsphere.cn",
+      "ipv4": "10.21.70.10",
+      "pass": "AES+V1+651baa08c1d1e9ec5a19fa7d90897e6322ab0a111b17ed5048ab52c1e6959e3c",
+      "port": 22003,
+      "user": "mysql_user"
+    },
+    "dbsql_yje_yujie_data": [
+      {
+        "_base": {
+          "region_id": 50000005,
+          "zone_id": 50050002,
+          "zone_name": "yf-1",
+          "zone_name_zh": "重庆一区"
+        },
+        "_service": {
+          "db_name_list": [
+            "yujie_data"
+          ],
+          "host": "db-1.db.gaia-1.yf-1.chongqing.yf-1.tcepoc.fsphere.cn",
+          "ipv4": "10.21.70.10",
+          "pass": "AES+V1+10dab1ce7b48f319b44d42c6d3a89cfb2c464a7d59b7386991db789a5810872e",
+          "port": 22001,
+          "user": "mysql_user"
+        }
+      }
+    ],
+    "dbsql_tcenter_CCDB4": [
+      {
+        "_base": {
+          "main_zone_name": "yf-1",
+          "region_area": "chongqing",
+          "region_city": "chongqing",
+          "region_id": 50000005,
+          "region_name": "chongqing",
+          "region_name_long": "chongqing",
+          "region_name_upper": "CHONGQING",
+          "region_name_zh": "重庆",
+          "xgw_bgp_as": "0"
+        },
+        "_service": {
+          "db_name_list": [
+            "CCDB4"
+          ],
+          "host": "db-1.db.gaia-1.yf-1.chongqing.yf-1.tcepoc.fsphere.cn",
+          "ipv4": "10.21.70.10",
+          "pass": "AES+V1+10dab1ce7b48f319b44d42c6d3a89cfb2c464a7d59b7386991db789a5810872e",
+          "port": 22001,
+          "user": "mysql_user"
+        }
+      }
+    ]
+  },
+  "redis": {}
+}

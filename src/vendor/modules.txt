@@ -1,0 +1,15 @@
+# git.code.oa.com/tce-config/tcestuary-go/v4 v4.0.0-00010101000000-000000000000 => ./../pkg/tcestuary-go
+git.code.oa.com/tce-config/tcestuary-go/v4
+git.code.oa.com/tce-config/tcestuary-go/v4/configcenter
+git.code.oa.com/tce-config/tcestuary-go/v4/logger
+git.code.oa.com/tce-config/tcestuary-go/v4/middlewareconfig
+git.code.oa.com/tce-config/tcestuary-go/v4/tcesecurity
+git.code.oa.com/tce-config/tcestuary-go/v4/tcesecurity/tencentsm
+git.code.oa.com/tce-config/tcestuary-go/v4/tcesecurity/tseckms/v20190118
+# github.com/jinzhu/copier v0.0.0-20190924061706-b57f9002281a
+github.com/jinzhu/copier
+# github.com/tencentyun/tcecloud-sdk-go v3.0.9+incompatible
+github.com/tencentyun/tcecloud-sdk-go/tcecloud/common
+github.com/tencentyun/tcecloud-sdk-go/tcecloud/common/errors
+github.com/tencentyun/tcecloud-sdk-go/tcecloud/common/http
+github.com/tencentyun/tcecloud-sdk-go/tcecloud/common/profile

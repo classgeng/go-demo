@@ -1,0 +1,107 @@
+{
+  "sdk":{
+    "tsm": {
+      "pem_appid": "tencentSmWeb.com.cn",
+      "pem_initlibwithcert": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNxakNDQWxHZ0F3SUJBZ0lKTVRBd01EQXdNREUyTUFvR0NDcUJITTlWQVlOMU1JSEFNUXN3Q1FZRFZRUUcKRXdKRFRqRVNNQkFHQTFVRUNBd0pSM1ZoYm1ka2IyNW5NUkV3RHdZRFZRUUhEQWhUYUdWdWVtaGxiakU2TURnRwpBMVVFQ2d3eFUyaGxibnBvWlc0Z1ZHVnVZMlZ1ZENCRGIyMXdkWFJsY2lCVGVYTjBaVzF6SUVOdmJYQmhibmtnClRHbHRhWFJsWkRFTU1Bb0dBMVVFQ3d3RFJtbFVNUm93R0FZRFZRUUREQkZVWlc1alpXNTBVMDBnVW05dmRDQkQKUVRFa01DSUdDU3FHU0liM0RRRUpBUllWVkdWdVkyVnVkRk5OUUhSbGJtTmxiblF1WTI5dE1DSVlEekl3TWpBeApNakE1TURreE9ESTFXaGdQTWpBeU1UQXpNVGt3T1RFNE1qVmFNSUdOTVFzd0NRWURWUVFHRXdKRFRqRVNNQkFHCkExVUVDQXdKUjNWaGJtZEViMjVuTVJFd0R3WURWUVFIREFoVGFHVnVXbWhsYmpFVk1CTUdBMVVFQ2d3TVZHVnUKWTJWdWRDQkpibU11TVF3d0NnWURWUVFMREFObWFYUXhGREFTQmdOVkJBTU1DMVJUVFNCc2FXTmxibk5sTVJ3dwpHZ1lEVlFRTkRCTjBaVzVqWlc1MFUyMVhaV0l1WTI5dExtTnVNRmt3RXdZSEtvWkl6ajBDQVFZSUtvRWN6MVVCCmdpMERRZ0FFbVZ1TUNtVGc4ZDZFOGVyTTFCZk5PbTRZbUxQdmpMdW1CalhJdWhNdnFWYW0xSEhjL2tCWmFtNlkKaFNIYTd1R2ExU2RGNmFHS212VjFPWmRwb2Nrc2txTmhNRjh3SHdZRFZSMGpCQmd3Rm9BVW9IVXdtL0poanNMVQowZ3l4Qm1FR3pPM3ZrQXd3SFFZRFZSME9CQllFRkhOQytDaThNZ2FtOGNBYURobjRocmF1eUtBZU1Bd0dBMVVkCkV3RUIvd1FDTUFBd0R3WURWUjBQQVFIL0JBVURBd2M0QURBS0JnZ3FnUnpQVlFHRGRRTkhBREJFQWlBZEpUQysKNmZhYVQzU0FmQUpaWjlEVUR1N0ZyZEQ0V0tiOHJUOXJjVWtjOHdJZ2JQYTQweEU3bEY5UklVZTNab0JIL2liVApmcUFGSGhTNjNDV0t4V3ZzRXh3PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t"
+    },
+    "passwd-secret":{
+      "__service_id__":"passwd-secret",
+      "aes_key":"f13c3f40c60db7f32ce6a5e0143f09ea",
+      "host":"passwd-secret.tencent-cloud.com",
+      "ipv4":"169.254.1.2",
+      "port":80
+    },
+    "transport-secret":{
+      "method": "kms-sm2",
+      "key_id": "5c880cfa-11d3-4b85-8739-3d623eb6e3b1",
+      "secret_id": "AKCACBAHAHBACJBFVFAM",
+      "secret_key": "UjA4RzQ0NzUxTlhUNTUwVw==",
+      "kms_server": "10.120.13.19:9080"
+    },
+    "sign-secret":{
+      "method":"tsm-sign",
+      "private_key": "M2YyMTk0NmY3Y2RlZTI2NmJhYTg0NjRiZjM1YzFmYTg2ZWY1OWQ3MzY2Zjc2NDM2YmMxM2RiNzFlMjQxNjE4ZQA=",
+      "public_key": "MDQ4N2U5OWNjZTJmMDhmODZjMmNjN2RjNDJiYzcyYTRhNjg1NmYxYzVlMTA0ZGMxNDc1M2MwYzQzZmQyZDUwZDU0OTNhMGU5M2I5MzQ1OGI5MzhhYmRmYzBmNDRkOTllNjVlZmEzZWY2NDFmYTU1NjcwNzk2MTQxMTg1MTVlYzA3OQA="
+    }
+  },
+  "mysql":{
+    "platform-cAuth":{
+      "__scope__":"global",
+      "__service_id__":"dbsql-tcenter-platform-cAuth",
+      "dbNodes":[
+        {
+          "host":"10.0.4.142",
+          "port":4004
+        },
+        {
+          "host":"10.0.4.116",
+          "port":4004
+        },
+        {
+          "host":"10.0.4.46",
+          "port":4004
+        }
+      ],
+      "db_name_list":[
+        "cAuth",
+        "customer_log"
+      ],
+      "host":"db-3.db.gaia-1.tcenterdev.chongqing.tcenter-dev.tcecqpoc.fsphere.cn",
+      "internalHost":"",
+      "ip":"10.0.5.143",
+      "ipv4":"10.0.5.143",
+      "nodeList":[
+        {
+          "host":"10.0.4.46",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.116",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.142",
+          "port":15005
+        }
+      ],
+      "node_list":[
+        {
+          "host":"10.0.4.46",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.116",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.142",
+          "port":15005
+        }
+      ],
+      "ownerInfo":{
+        "ssm-apps":[
+          "tcloud-tcenter-platform-open2"
+        ],
+        "ssm-product":"tcenter"
+      },
+      "pass":"gn0yj8rq5ozs",
+      "port":22005,
+      "proxyNodes":[
+        {
+          "host":"10.0.4.46",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.116",
+          "port":15005
+        },
+        {
+          "host":"10.0.4.142",
+          "port":15005
+        }
+      ],
+      "setName":"set_1615188832_23",
+      "user":"udiy3lkrxs"
+    }
+  }
+}

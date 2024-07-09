@@ -1,0 +1,13 @@
+tag v2.0.1
+
+1. 增加 GetMysqlConfig 接口. 获取单个数据库配置
+2. 密码输出格式为: AES+salt 样式.
+
+
+tag v2.0.2
+
+1. 增加 GetMysqlConfigAllRegion / GetMysqlConfigAllZone 接口, 
+   支持 dbsql 的 all_region / all_zone 属性.
+2. 增肌 GetRegion / GetZone 接口, 支持地域信息查询.
+3. 密码输出格式改为: AES+V1 样式, 隐藏 slat 值.
+

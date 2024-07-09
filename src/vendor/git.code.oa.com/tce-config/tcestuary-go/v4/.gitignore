@@ -1,0 +1,12 @@
+../*.swp
+.vscode
+
+tools/tce-config-sdk/tce-config-sdk
+tools/tce-encipher/tce-encipher
+tools/tcestuary/sdk.golang.version
+tools/tcestuary/tcestuary
+tools/tcestuary/tcestuary_arm
+tools/tcestuary/tcestuary_x86
+
+_example/sdk.golang.version
+_example/_example
